@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 1</title>
+    <style>
+        /* Estilo del contenedor tipo tarjeta (card) */
+        .card {
+            background-color: #ef7cf8;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 400px;
+            margin: 90px auto;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilo del texto */
+        p {
+            font-size: 18px;
+            color: #333;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <p id="soyelid"></p>
+    </div>
+
+    <script>
+        // Muestra el mensaje cuando la página termina de cargar
+        window.onload = function() {
+            let mensaje = "¡No me gusta la programación!";
+            document.getElementById("soyelid").innerHTML = mensaje;
+        };
+    </script>
+
+</body>
+</html>
